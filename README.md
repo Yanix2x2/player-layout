@@ -2,7 +2,8 @@
 
 Этот проект представляет собой простой видеоплеер, созданный с использованием библиотеки Playable.js.
 
-![Screenshot]
+<img width="1000" height="932" alt="Screenshot_1" src="https://github.com/user-attachments/assets/a1f500c0-1a17-417c-bfe5-5dd78c68bd12" />
+
 
 Элементы управления:
 - Кнопки Play/Pause
