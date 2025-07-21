@@ -48,9 +48,20 @@
       color: white;
     }
 
+
+    .time-display {
+      display: flex;
+      flex-grow: 1;
+      font-size: 18px;
+      font-family: 'Roboto 400';
+      color: white;
+      margin-top: 2px;
+    }
+
     .push-right {
       margin-left: auto;
     }
+
   </style>
 </head>
 <body>
@@ -72,11 +83,19 @@
         <i class="fa fa-volume-up" aria-hidden="true"></i>
       </button>
 
+      <div class="time-display">
+        <span class="js-current-time"></span>
+        ---
+        <span class="js-duration push-right"></span>
+      </div>
+
       <button class="js-fullscreen-button control-button push-right">
         <i class="fa fa-arrows-alt" aria-hidden="true"></i>
       </button>
 
     </div>
+    
+
   </div>
 
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
