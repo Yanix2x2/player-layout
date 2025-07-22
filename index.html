@@ -15,7 +15,7 @@
     #player {
       height: 100%;
       max-height: 600px;
-
+      
       width: 100%;
       max-width: 800px;
 
@@ -46,6 +46,11 @@
       font-size: 20px;
       padding-right: 9px;
       color: white;
+    }
+
+    .control-button.volume-button {
+        width: 35px;
+        min-width: 35px;
     }
 
     .time-display {
@@ -114,10 +119,10 @@
         <i class="fa fa-pause fa-fw" aria-hidden="true" ></i>
       </button>
 
-      <button class="js-volume-button control-button">
+      <button class="js-volume-button control-button volume-button">
         <i class="fa fa-volume-off" aria-hidden="true"></i>
       </button>
-      <button class="js-mute-button control-button" hidden>
+      <button class="js-mute-button control-button volume-button" hidden>
         <i class="fa fa-volume-up" aria-hidden="true"></i>
       </button>
 
